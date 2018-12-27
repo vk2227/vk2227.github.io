@@ -12,3 +12,8 @@ def single_list(X):
 X = [["1", "2"], ["a", "b"], ["3", "4", "p", "a"]]
 
 print(single_list(L))
+
+## Answer
+
+list = [item for sublist in X for item in sublist]
+print(list)
