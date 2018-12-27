@@ -11,13 +11,15 @@ The nested for loop below processes a list of lists and flattens the elements in
         return output
 
     X = [["1", "2"], ["a", "b"], ["3", "4", "p", "a"]]
-    print(single_list(L))
+    print(single_list(X))
 
 #### Output
     ['1', '2', 'a', 'b', '3', '4', 'p', 'a']
 
 ## Answer 1
+
 #### Code
+    X = [["1", "2"], ["a", "b"], ["3", "4", "p", "a"]]
     list = [item for sublist in X for item in sublist]
     print(list)
 
