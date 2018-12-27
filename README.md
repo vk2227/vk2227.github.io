@@ -19,7 +19,6 @@ The nested for loop below processes a set of lists and combines the elements int
 ## Answer
 
     list = [item for sublist in X for item in sublist]
-
     print(list)
 
 ### Output
