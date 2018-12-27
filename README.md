@@ -1,6 +1,6 @@
 ## Question 1
 
-The nested for loop below processes a set of lists and combines the elements into a single list. How to do the same thing in a single line using list comprehension?
+The nested for loop below processes a list of lists and flattens the elements into a single list. How to do the same thing in a single line using list comprehension?
 
 #### Code
     def single_list(X):
@@ -16,7 +16,7 @@ The nested for loop below processes a set of lists and combines the elements int
 #### Output
     ['1', '2', 'a', 'b', '3', '4', 'p', 'a']
 
-## Answer
+## Answer 1
 #### Code
     list = [item for sublist in X for item in sublist]
     print(list)
