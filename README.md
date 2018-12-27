@@ -16,4 +16,5 @@ print(single_list(L))
 ## Answer
 
 list = [item for sublist in X for item in sublist]
+
 print(list)
