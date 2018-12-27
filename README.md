@@ -12,6 +12,7 @@ The nested for loop below processes a set of lists and combines the elements int
 
     X = [["1", "2"], ["a", "b"], ["3", "4", "p", "a"]]
     print(single_list(L))
+
 ### Output
     ['1', '2', 'a', 'b', '3', '4', 'p', 'a']
 
@@ -20,5 +21,6 @@ The nested for loop below processes a set of lists and combines the elements int
     list = [item for sublist in X for item in sublist]
 
     print(list)
+
 ### Output
     ['1', '2', 'a', 'b', '3', '4', 'p', 'a']
