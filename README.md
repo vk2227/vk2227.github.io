@@ -1,6 +1,6 @@
 ## Question 1
 
-The nested for loop below processes a list of lists and flattens the elements into a single list. How to do the same thing in a single line using list comprehension?
+The *single_list* function below with the nested for loop processes a list of lists and flattens the elements into a single list. How to do the same thing in a single line using list comprehension?
 
 #### Code
     def single_list(X):
