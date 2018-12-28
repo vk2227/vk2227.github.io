@@ -25,3 +25,5 @@ The *single_list* function below with the nested for loop processes a list of li
 
 #### Output
     ['1', '2', 'a', 'b', '3', '4', 'p', 'q']
+
+--------------------------------------------------------------
