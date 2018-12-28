@@ -29,7 +29,7 @@ The *single_list* function below with the nested for loop processes a list of li
 --------------------------------------------------------------
 ## Question 2
 
-Make a list consisting the maximum values at each index for 3 lists. Use map or list comprehension.
+Given 3 lists, make a new list consisting of the maximum values at each index for the 3 lists.
 
 ## Answer 2
 
